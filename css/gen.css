@@ -1,0 +1,51 @@
+html, body
+{
+	height: 100%;
+	width: 100%;
+	font-family: 'poppins', sans-serif;
+	color: #222;
+}
+footer {
+	background-color: #3f3f3f;
+	color: #d5d5d5;
+	padding-top: 2rem;
+	}
+hr.light {
+	border-top: 1px solid #d5d5d5;
+	width: 75%;
+	}
+.carousel-inner img {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }

@@ -3,14 +3,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>LogIn</title>
- </head>	
+</head>	
 <body>
 
 
 <!--Header-->
 <nav class="navbar navbar-expand-md navbar-dark bg-dark stiky-top">
 	<div class="container-fluid">
-		<a class="navbar-brand" href="https://www.facebook.com/leemar.garcia"><img src="image/1.jpg"  class="img-fluid rounded-circle" style="width:4rem";></a>
+		<a class="navbar-brand" href="https://www.facebook.com/leemar.garcia"><img src="app/view/login/image/1.jpg"  class="img-fluid rounded-circle" style="width:4rem";></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -48,7 +48,6 @@
 		<li data-target="'slides" data-slide-to="2"></li>
 		<li data-target="'slides" data-slide-to="3"></li>
 		<li data-target="'slides" data-slide-to="4"></li>
-		<li data-target="'slides" data-slide-to="5"></li>
 	</ul>
 	<div class="carousel-inner">
 		<div class="carousel-item active">

@@ -10,6 +10,9 @@ class Login extends Controller {
     }
 
     public function homeAction(){
-        $this->view->render('login/hone');
+      $this->view->render('login/hone');
+    }
+    public function developAction(){
+      $this->view->render('login/home');
     }
 }

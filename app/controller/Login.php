@@ -8,4 +8,8 @@ class Login extends Controller {
     public function indexAction(){
         $this->view->render('login/index');
     }
+
+    public function homeAction(){
+        $this->view->render('login/home');
+    }
 }

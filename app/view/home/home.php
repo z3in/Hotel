@@ -16,7 +16,6 @@
     </form>
   </div>
 </nav>
-
 <script src="<?=SROOT?>js/jquery-3.4.1.min.js"></script>
 <script src="<?=SROOT?>js/bootstrap.min.js"></script>
 <script src="<?=SROOT?>js/popper.min.js"></script>

@@ -9,7 +9,16 @@ class Login extends Controller {
         $this->view->render('login/index');
     }
 
-    public function homeAction(){
-        $this->view->render('login/hone');
+    public function getLoginCredAction(){
+        if(isset($_POST['uname'])){
+            $uname = $_POST['uname'];
+            $pwd = $_POST['pwd'];
+            $unameVerified=LoginQuery::authResult($uname,$pwd);
+            if ($uname == $unameVerified){
+                echo "success";
+            }
+        }
+        exit();
     }
+
 }

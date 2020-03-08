@@ -14,5 +14,4 @@ function __autoload($className){
     }
 }
 
-
 Router::route($url);

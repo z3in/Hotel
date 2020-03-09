@@ -9,7 +9,7 @@
 <body>           
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">BLKRN</a>
+  <a class="navbar-brand" href="#"><img src="<?=SROOT?>image/1.jpg" class="rounded-circle" alt="Cinque Terre"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -18,13 +18,13 @@
     <ul class="navbar-nav mr-auto mt-0 mt-lg-0">
     </ul>
     <form class="form-inline my-2 my-lg-0">
-		<input class="form-control mr-sm-2" type="text" placeholder="Username" aria-label="Username" id="uname">
+    <input class="form-control mr-sm-2" type="text" placeholder="Username" aria-label="Username" id="uname">
 		<input class="form-control mr-sm-2" type="password" placeholder="Password" aria-label="Password" id="pwd">
     	<button class="btn btn btn-dark my-2 my-sm-0" type="submit" id="login-btn">Login</button>
     </form>
   </div>
 </nav>
-<div class="alert alert-primary" role="alert">
+<div class="msg-box">
   Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
 </div>
 <script src="<?=SROOT?>js/jquery-3.4.1.min.js"></script>
